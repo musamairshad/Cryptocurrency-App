@@ -14,8 +14,8 @@ class CryptoTileWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return Card(
       child: ListTile(
-        leading: const CircleAvatar(
-          backgroundColor: Colors.blue,
+        leading: CircleAvatar(
+          child: Text(symbol),
         ),
         title: Text(name),
         subtitle: Text(symbol),
